@@ -8,7 +8,7 @@ SRCS = main.c
 OBJS = $(SRCS:%.c=%.o)
 
 # Target executable
-TARGET = window_manager
+TARGET = a4
 
 # Default build target
 $(TARGET): $(OBJS)
