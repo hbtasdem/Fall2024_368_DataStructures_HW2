@@ -4,7 +4,7 @@ ERROR = -Wvla -Werror
 GCC = gcc -std=c11 -g $(WARNING) $(ERROR)
 
 # Source and object files
-SRCS = main.c
+SRCS = a4.c
 OBJS = $(SRCS:%.c=%.o)
 
 # Target executable
